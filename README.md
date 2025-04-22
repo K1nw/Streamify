@@ -1,60 +1,43 @@
-Streamify
-Streamify é uma plataforma de música com várias funcionalidades que permite aos usuários explorar e curtir playlists, vídeos e muito mais. Este repositório contém os arquivos HTML, CSS e JavaScript que implementam a interface do usuário, funcionalidade de login, e as interações com a plataforma.
+# Streamify
 
-Estrutura do Projeto
-HTML: Contém a estrutura da página, incluindo o cabeçalho, menus e popups.
+**Streamify** é uma plataforma de música interativa desenvolvida com HTML, CSS e JavaScript. Com ela, você pode explorar playlists, assistir vídeos e navegar facilmente entre diferentes conteúdos multimídia.
 
-CSS: Estilos para o layout do site, incluindo centralização e responsividade.
+## Funcionalidades
 
-JavaScript: Scripts para interações, como exibição de popups de vídeo e controle de navegação entre as playlists.
+- **Exibição de Playlists**: Cada playlist aparece como uma "box" que contém o nome da playlist e um botão de "Detalhes".
+- **Popup de Vídeos e Imagens**: Quando um botão de detalhes é clicado, um popup é exibido com vídeos ou imagens relacionados à playlist.
+- **Login e Registro**: Permite que usuários façam login e cadastro, para acessar suas playlists e conteúdos.
+- **Navegação Responsiva**: O site possui uma navegação simples com links para a página inicial, sobre e login.
 
-Funcionalidades
-Exibição de Playlists: Cada playlist é exibida em uma box com o nome da playlist e um botão de "Detalhes".
+## Estrutura do Projeto
 
-Popup para Vídeos e Imagens: Ao clicar no botão de "Detalhes", um popup é exibido com conteúdo relacionado, como imagens ou vídeos.
+- **HTML**: Arquivos que contêm a estrutura do site (ex: `index.html`, `sobre.html`, `login.html`).
+- **CSS**: Estilos que definem a aparência do site (ex: `style.css`, `stylecursos.css`).
+- **JavaScript**: Funcionalidades interativas (ex: controle do popup e navegação entre conteúdos).
 
-Login e Registro: Permite que os usuários se registrem e façam login para acessar suas playlists personalizadas.
+## Como Usar
 
-Estrutura de Navegação: O site tem links para a página inicial, sobre, e login.
+1. Clone ou faça o download deste repositório.
+2. Abra o arquivo `index.html` em seu navegador para visualizar o site.
+3. As páginas podem ser acessadas pelos links na barra de navegação (Início, Playlist, Sobre, Login).
+4. Utilize o botão "Detalhes" para visualizar o conteúdo multimídia de cada playlist.
 
-Como Rodar
-Pré-requisitos
-Um servidor web (como XAMPP ou outro servidor local) para rodar os arquivos PHP, caso necessário.
+## Dependências
 
-O JavaScript e o CSS já estão configurados, sendo necessário apenas abrir o arquivo index.html ou o arquivo que deseja visualizar no navegador.
+- Nenhuma dependência externa foi utilizada para o funcionamento básico do projeto.
 
-Passos
-Clone o Repositório:
+## Contribuições
 
-bash
-Copiar
-Editar
-git clone https://github.com/usuario/streamify.git
-Abra os Arquivos no Navegador:
+1. Faça um fork deste repositório.
+2. Crie uma branch para sua feature (`git checkout -b feature-nome`).
+3. Realize as modificações e faça um commit (`git commit -m 'Adicionando nova feature'`).
+4. Envie suas alterações para o repositório remoto (`git push origin feature-nome`).
+5. Abra um pull request.
 
-Para visualizar o site, abra os arquivos index.html, sobre.html ou outros diretamente no navegador.
+## Licença
 
-Configuração Local (se necessário):
+Este projeto é de código aberto e pode ser utilizado livremente, desde que respeite as condições de uso.
 
-Caso use PHP, você pode precisar de um servidor local como o XAMPP. Coloque os arquivos na pasta htdocs e acesse pelo navegador através de localhost/nome_da_pasta.
+---
 
-Estrutura de Diretórios
-pgsql
-Copiar
-Editar
-streamify/
-│
-├── albuns/
-│   └── logo.png
-│
-├── imagens/
-│   └── (imagens de playlist)
-│
-├── musicas/
-│   └── billie1.mp4
-│
-├── index.html
-├── sobre.html
-├── login.html
-├── script.js
-└── style.css
+Obrigado por conferir o projeto! :musical_note:
